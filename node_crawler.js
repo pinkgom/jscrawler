@@ -10,6 +10,6 @@ http.get(url, function(res) {
     res.pipe(outfile);
     res.on('end', function() {
         outfile.close();
-        console.log("downdload finished");
+        console.log("downdload finished!");
     });
 });
